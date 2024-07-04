@@ -15,7 +15,6 @@
           (final: prev: {
             dwmblocks = prev.dwmblocks.overrideAttrs (old: {
               src = self;
-              ];
             });
           })
         ];
